@@ -1,0 +1,30 @@
+/* ================= NAVEGADOR =================  */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    .logo {
+        animation-name: logo;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+
+        @keyframes logo {
+            0% {
+                transform: translatex(-50vh);
+            }
+            100% {
+                transform: translatex(0vh);    
+            }
+        }
+        }
+        .navbar-nav a{
+            transition: all 1s;
+        
+        
+        &:hover{
+            transform: scale(1.5);
+            text-decoration: underline;
+        }
+
+        }
+}

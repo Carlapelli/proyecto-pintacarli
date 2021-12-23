@@ -1,0 +1,32 @@
+/*  ================= ESTILO DE LA PÁGINA DE CONTACTO =================  */
+
+form{
+    text-align: left;
+    background-color: $background-forms;
+    border-radius: 15px;
+
+    width: 500px;
+    margin: 0 10px;
+
+    div{
+        margin: 5.5px;
+
+        input{
+            @extend div;
+        }
+
+        textarea{
+            @extend div;
+        }
+    }
+}
+/*  ================= MAPA LA PÁGINA DE CONTACTO =================  */
+
+iframe{
+    margin-bottom: 50px;
+}
+
+/*  ================= ESTILO CARDS MATERIALES =================  */
+.card-body{
+    background-color: $background-forms;    
+}
