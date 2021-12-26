@@ -1,3 +1,28 @@
+/*  ================= BANNER INDEX =================  */
+
+.imagen-fondo{
+    background-image: url(../../imagenes/lunitas.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    height: 10rem;    
+}
+
+/*  ================= ESTILO DE TEXTOS =================  */
+
+.texto{
+    max-width: 800px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.texto-materiales{
+    max-width: 500px;
+}
+
 /*  ================= ESTILO DE LA PÁGINA DE CONTACTO =================  */
 
 form{
@@ -5,7 +30,7 @@ form{
     background-color: $background-forms;
     border-radius: 15px;
 
-    width: 500px;
+    width: 900px;
     margin: 0 10px;
 
     div{
@@ -20,6 +45,46 @@ form{
         }
     }
 }
+
+/*  ================= ESTILO DE LA PÁGINA DE ARTE =================  */
+
+.container {
+    position: relative;
+    width: 50%;
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: $background-forms;
+        .text {
+            color: $title-color;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+    }
+    &:hover .overlay {
+        opacity: 1;
+    }
+}
+
+
 /*  ================= MAPA LA PÁGINA DE CONTACTO =================  */
 
 iframe{

@@ -1,5 +1,5 @@
 
-/* ============== BACKGROUND =============== */
+/* ============== BACKGROUND DE TODA LA WEB =============== */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100;1,400;1,700&display=swap');
 
@@ -10,12 +10,10 @@
 }
 
 .main-bg {
-    background-image: url(../imagenes/background3.jpg);
+    background-image: url(../imagenes/background3.webp);
     background-repeat: no-repeat;
 /*     background-size: cover; lo quité porque en Contacto aparecía la imagen cortada y en inspect descubrí que era por esto*/
 }
-
-
 
 /* ============== TITULOS =============== */
 
@@ -23,7 +21,7 @@
     h#{$i}{
         font-weight: 700 / $i;
         text-align: center;
-        margin: 50px / $i;
+        margin: 70px / $i;
     }
 } 
 
