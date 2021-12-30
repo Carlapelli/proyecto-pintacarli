@@ -29,6 +29,7 @@ form{
     text-align: left;
     background-color: $background-forms;
     border-radius: 15px;
+    text-align: center;
 
     width: 900px;
     margin: 0 10px;
@@ -68,7 +69,7 @@ form{
         transition: .5s ease;
         background-color: rgba(0, 0, 0, 0.5);
         .text {
-            color: whitesmoke;
+            color: $background-forms;
             font-size: 15px;
             position: absolute;
             top: 50%;

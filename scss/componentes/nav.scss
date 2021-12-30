@@ -17,13 +17,15 @@ header {
             }
         }
         }
-        .navbar-nav a{
-            transition: all 1s;
-        
-        
-        &:hover{
-            text-decoration: underline;
-        }
+        .navbar-nav {
 
+            a{
+                transition: all 1s;
+            
+        
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
         }
 }
