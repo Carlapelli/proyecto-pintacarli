@@ -77,8 +77,9 @@ h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  background-size: auto 100vh;
-  height: 15rem; }
+  background-size: cover;
+  height: 15rem;
+  width: 100%; }
 
 /*  ================= ESTILO DE TEXTOS =================  */
 .texto {
@@ -175,7 +176,9 @@ footer {
   .section2 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; } }
+    justify-content: center; }
+  .imagen-fondo {
+    background-attachment: scroll; } }
 
 @media screen and (min-width: 768px) {
   #carouselExampleControls {
