@@ -101,6 +101,8 @@ form {
   margin: 0 10px; }
   form div, form div input, form div textarea {
     margin: 5.5px; }
+    form div textarea {
+      resize: none; }
 
 /*  ================= ESTILO DE LA PÁGINA DE ARTE =================  */
 .container {
@@ -136,7 +138,8 @@ form {
 
 /*  ================= MAPA LA PÁGINA DE CONTACTO =================  */
 iframe {
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  border-radius: 15px; }
 
 /*  ================= ESTILO CARDS MATERIALES =================  */
 .card-body {
@@ -176,9 +179,7 @@ footer {
   .section2 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; }
-  .imagen-fondo {
-    background-attachment: scroll; } }
+    justify-content: center; } }
 
 @media screen and (min-width: 768px) {
   #carouselExampleControls {

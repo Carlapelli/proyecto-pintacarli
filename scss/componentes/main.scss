@@ -44,6 +44,7 @@ form{
 
         textarea{
             @extend div;
+            resize: none;
         }
     }
 }
@@ -91,9 +92,10 @@ form{
 
 iframe{
     margin-bottom: 50px;
+    border-radius: 15px;
 }
 
 /*  ================= ESTILO CARDS MATERIALES =================  */
 .card-body{
-    background-color: $background-forms;    
-}
+    background-color: $background-forms; 
+}  
