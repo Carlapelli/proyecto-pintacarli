@@ -5,6 +5,8 @@ header {
   position: sticky;
   top: 0;
   z-index: 1; }
+  header nav {
+    background-color: #86c3c9; }
   header .logo {
     animation-name: logo;
     animation-duration: 1s;

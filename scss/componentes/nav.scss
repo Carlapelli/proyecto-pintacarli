@@ -3,6 +3,11 @@ header {
     position: sticky;
     top: 0;
     z-index: 1;
+
+    nav{
+        background-color: $background-color;
+    }
+
     .logo {
         animation-name: logo;
         animation-duration: 1s;
